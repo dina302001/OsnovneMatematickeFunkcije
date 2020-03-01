@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnovne matematicke radnje</title>
+</head>
+<body>
+    <script>
+        var broj1 = prompt("Molimo unesite prvi broj: ");
+        var operacija = prompt("Molimo unesite operaciju: ");
+        var broj2 = prompt("Molimo unesite drugi broj: ");
+        var plus = "+";
+        var minus = "-";
+        var zvijezda = "*";
+        var kosacrta = "/";
+
+    if (operacija == plus) {
+        var sabiraj = parseInt(broj1) + parseInt(broj2);
+        alert("rezultat je: " + sabiraj)
+    } else if (operacija == minus) {
+        var oduzimaj = parseInt(broj1) - parseInt(broj2);
+        alert("rezultat je: " + oduzimaj)
+    } else if (operacija == zvijezda) {
+        var mnozi = parseInt(broj1) * parseInt(broj2);
+        alert("rezultat je: " + mnozi)
+    } else if (operacija == kosacrta) {
+        var dijeli = parseInt(broj1) / parseInt(broj2);
+        alert("rezultat je: " + dijeli)
+    }
+    
+    
+    </script>
+</body>
+</html>
